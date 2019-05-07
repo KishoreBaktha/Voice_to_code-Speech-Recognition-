@@ -1,0 +1,181 @@
+/*
+EXAMPLES
+
+finish line (mainly used with intellisense, adds a ";" to the end of line and goes to line below)
+say "finish line"
+
+tab -
+say "tab"
+
+To run current program-
+run
+
+To copy one line-
+copy line 5
+To copy multiple lines-
+copy line 5 to 7
+
+To paste-
+go to line <line number>
+paste
+
+To run another program-
+run menu      //to open the run menu
+run <program name> //by default second program will be run
+
+To undo-
+undo
+
+To backspace-
+backspace
+
+COMMENT-
+comment current line: "comment line"
+comment specific line: "comment line <number>"
+add comment after current line (ex: int a = 10 // some comment): "comment here <text>"
+
+To create directory world in current folder-
+create directory world
+
+press File+Synchronize to refresh //auto refresh not working for now, can't find any option for now
+
+To create file hello in directory world-
+create file hello in directory world
+
+To goto file in particular directory-
+go to file hello in directory world
+
+Pause - // turn off plugin temporarily
+say "pause"
+
+
+Restart -
+say "restart"
+
+Open file-
+go to file "name" //the starting letter of the file must be in capital
+
+Create file-
+create file "name"
+
+//voice to code will stop for both the above calls, you have to restart again, this is to set the cursor to point to the
+new file
+
+To turn off voice to code-
+turn off
+
+VARIABLE-
+int hello world equals 5
+
+Assigment with context-
+
+String makeMe="hello";
+String makeYou="world";
+say make me equals make you-
+output will be   makeMe=makeYou
+say make me equals hello world-
+output will be   makeMe="hello world"
+
+METHOD-
+create method main                       // creates public static void main(String[] args){}
+create method public void hello world    // creates public void helloWorld(){}
+
+LOOP-
+loop while i lesser 5
+loop for int i equals 5 i lesser 10 increment i
+loop i from 0 to 5
+loop i from 5 to 0
+
+IF-
+if a greater b
+
+CLASS-
+create class a
+
+PRINT-
+output string hey
+
+FUNCTION WITHOUT ARGUMENTS
+i lesser a dot length function
+OUTPUT- i < a.length()
+
+NAVIGATION
+go to line 5
+go to next column
+go to next column
+go to previous line
+go to next line
+
+INTELLISENSE
+intellisense    // shows intellisense options
+intellisense 3 // chooses option 3 from the showed intellisense options
+*/
+
+Phrase-keyword
+Create- for special statements
+Normal translation
+Skip, goto
+Choose(for intelligence)
+Undo
+
+ create 
+     .1 variable <type> <name> <value>(automatic equal sign)
+     .2 method <access modifier> static <type> <name> <arguments>(automatic brackets)
+     .3 number count(number of digits) <value>
+     .4 character small <value> 
+     .5 character large <value> 
+     .6 open, close bracket 
+     .7 open, close braces
+     .8 open, close square bracket 
+     .9 camelcase <word> (starting letter capital)
+     .10 call <name of function> <arguments>
+     .11 loop <for, while,dowhile> <1> 
+    .12 increment, decrement <variable>   
+    .13 comment line
+      
+(Navigation)
+    .1 skip left, right
+     .2 goto line <number> 
+     .3 selecting multiple options on goto command 
+     .4goto previous,next
+
+Intellisense
+      Choose <option> or enter for first option
+
+
+1)PHRASE 
+- import
+2)SPACE
+3)Delete
+4)STOP 
+- .
+5)STAR 
+-astrick
+6)Enter 
+7)colon
+:
+8)comma-
+,
+9)semi-colon
+;
+10) greater
+>
+11)lesser
+<
+12)and
+&&
+13) or
+||
+14)not
+!
+15)EQUAL 
+=
+16)plus, minus, multiply, divide - +,-,*,/
+
+      
+ 
+     
+
+
+
+
